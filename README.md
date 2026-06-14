@@ -49,10 +49,7 @@ This project leverages Machine Learning algorithms to analyze IoT sensor data an
 
 | Member   | Role                           | Name           |
 | -------- | ------------------------------ | -------------- |
-| Member 1 | Data Engineer                  | Tarun Saxena   |
-| Member 2 | ML Engineer                    | Vaibhav Gautam |
-| Member 3 | Context & Integration Engineer | Vaibhav Gautam |
-| Member 4 | Evaluation & Deployment Lead   | Tarun Saxena   |
+| Member 1 | Data Engineer and ML Engineer   | Yatharth Raghuvanshi|
 
 ---
 
@@ -134,7 +131,7 @@ Develop an intelligent predictive maintenance system capable of identifying mach
 
 # Day 1 Progress
 
-## 👨‍💻 Member 1 – Data Engineer (Tarun Saxena)
+## 👨‍💻 Member 1 – Data Engineer (Yatharth Raghuvanshi)
 
 ### ✅ Tasks Completed
 
@@ -172,7 +169,7 @@ Development environment successfully prepared for project implementation.
 
 ---
 
-## 🤖 Member 2 – ML Engineer (Vaibhav Gautam)
+## 🤖 Member 2 – ML Engineer (Yatharth Raghuvanshi)
 
 ### ✅ Tasks Completed
 
@@ -203,9 +200,7 @@ EDA workspace successfully prepared for analysis activities.
 
 **Status:** ✅ Completed
 
----
 
-## 🔗 Member 3 – Context & Integration Engineer (Vaibhav Gautam)
 
 ### ✅ Tasks Completed
 
@@ -236,8 +231,6 @@ Feature integration framework prepared for Week 2.
 
 ---
 
-## 📊 Member 4 – Evaluation & Deployment Lead (Tarun Saxena)
-
 ### ✅ Tasks Completed
 
 * Created GitHub repository:
@@ -265,7 +258,7 @@ Project management structure established.
 
 # Day 2 Progress
 
-## 👨‍💻 Member 1 – Data Engineer (Tarun Saxena)
+## 👨‍💻 Member 1 – Data Engineer (Yatharth Raghuvanshi)
 
 ### ✅ Tasks Completed
 
@@ -301,7 +294,7 @@ Dataset successfully validated and ready for EDA.
 
 ---
 
-## 🤖 Member 2 – ML Engineer (Vaibhav Gautam)
+## 🤖 Member 2 – ML Engineer (Yatharth Raghuvanshi)
 
 ### ✅ Tasks Completed
 
@@ -326,7 +319,6 @@ Class imbalance identified and documented for future SMOTE implementation.
 
 ---
 
-## 🔗 Member 3 – Context & Integration Engineer (Vaibhav Gautam)
 
 ### ✅ Tasks Completed
 
@@ -350,7 +342,6 @@ Foundation established for rolling feature generation.
 
 ---
 
-## 📊 Member 4 – Evaluation & Deployment Lead (Tarun Saxena)
 
 ### ✅ Tasks Completed
 
@@ -373,7 +364,7 @@ Team collaboration process fully documented.
 
 # Day 3 Progress
 
-## 👨‍💻 Member 1 – Data Engineer (Tarun Saxena)
+## 👨‍💻 Member 1 – Data Engineer (Yatharth Raghuvanshi)
 
 ### ✅ Tasks Completed
 
@@ -396,7 +387,7 @@ Dataset verified and ready for preprocessing and feature engineering.
 
 ---
 
-## 🤖 Member 2 – ML Engineer (Vaibhav Gautam)
+## 🤖 Member 2 – ML Engineer (Yatharth Raghuvanshi)
 
 ### ✅ Tasks Completed
 
@@ -412,8 +403,6 @@ EDA phase progressing successfully.
 
 ---
 
-## 🔗 Member 3 – Context & Integration Engineer (Vaibhav Gautam)
-
 ### ✅ Tasks Completed
 
 * Extended feature engineering framework.
@@ -427,8 +416,6 @@ Feature engineering workflow ready for next development phase.
 **Status:** ✅ Completed
 
 ---
-
-## 📊 Member 4 – Evaluation & Deployment Lead (Tarun Saxena)
 
 ### ✅ Tasks Completed
 
@@ -447,7 +434,7 @@ Project governance and documentation framework strengthened.
 
 # Day 3 Progress 
 
-### 🔹 Member 1 — Data Engineer(Tarun Saxena)
+### 🔹 Member 1 — Data Engineer(Yatharth Raghuvanshi)
 **Task Completed:**
 - Encoded categorical `Type` column using `LabelEncoder`.
 - Created new feature: `Type_enc`.
@@ -462,7 +449,7 @@ Project governance and documentation framework strengthened.
 
 ---
 
-### 🔹 Member 2 — ML Engineer(Vaibhav Gautam)
+### 🔹 Member 2 — ML Engineer(Yatharth Raghuvanshi)
 **Task Completed:**
 - Generated distribution plots for all sensor variables.
 - Compared sensor behavior across:
@@ -476,9 +463,7 @@ Project governance and documentation framework strengthened.
 
 **Status:** ✅ Completed
 
----
 
-### 🔹 Member 3 — Context & Integration Engineer(Vaibhav Gautam)
 **Task Completed:**
 - Implemented rolling statistical features:
   - Rolling Mean
@@ -496,7 +481,6 @@ Project governance and documentation framework strengthened.
 
 ---
 
-### 🔹 Member 4 — Evaluation & Deployment Lead(Tarun Saxena)
 **Task Completed:**
 - Created centralized `progress_tracker.md`.
 - Monitored task completion across all team members.
@@ -566,4 +550,4 @@ Prepare and validate the AI4I Predictive Maintenance dataset for machine learnin
 
 # Day 1 Progress
 
-## 👨‍💻 Member 1 – Data Engineer (Tarun Saxena)
+## 👨‍💻 Member 1 – Data Engineer (Yatharth Raghuvanshi)
