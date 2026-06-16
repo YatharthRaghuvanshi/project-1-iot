@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("data/ai4i2020.csv")
+df = pd.read_csv("C:/Users/ASUS/Downloads/project-1-iot/data/ai4i2020.csv")
 
 print("First 5 Rows:")
 print(df.head())
