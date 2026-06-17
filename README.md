@@ -645,3 +645,23 @@ The team successfully completed all planned Day 1 activities and established the
 
 ### 📌 Overall Status
 🟢 **On Schedule – All Day 1 Objectives Successfully Completed**
+
+---
+
+## Contextual Data Fusion
+
+### Internal Features
+
+- Type_enc
+- Rolling Mean Features
+- Rolling Standard Deviation Features
+- Rolling Variance Features
+
+### External Context Features
+
+- ambient_temp_C
+- factory_load_pct
+
+### Goal
+
+Evaluate whether adding contextual information improves predictive maintenance performance compared to using internal IoT telemetry features alone.
