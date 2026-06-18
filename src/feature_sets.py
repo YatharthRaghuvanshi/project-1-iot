@@ -29,3 +29,5 @@ extended_features = (
         "factory_load_pct"
     ]
 )
+print("Base Features:", len(base_features))
+print("Extended Features:", len(extended_features))
