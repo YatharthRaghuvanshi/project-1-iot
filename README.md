@@ -665,3 +665,26 @@ The team successfully completed all planned Day 1 activities and established the
 ### Goal
 
 Evaluate whether adding contextual information improves predictive maintenance performance compared to using internal IoT telemetry features alone.
+
+
+----
+
+
+
+# Week 2 Day 2 Progress
+
+## Baseline Random Forest
+
+Model:
+- Random Forest Classifier
+
+Feature Set:
+- Internal IoT Features Only
+
+Evaluation Metrics:
+- Precision
+- Recall
+- Macro F1 Score
+
+Purpose:
+Establish baseline performance before introducing external context features.
