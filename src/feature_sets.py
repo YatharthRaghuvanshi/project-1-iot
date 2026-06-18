@@ -20,3 +20,12 @@ base_features = [
     "Tool wear [min]_rolling_var"
 ]
 target_column = "Machine failure9"
+
+
+extended_features = (
+    base_features
+    + [
+        "ambient_temp_C",
+        "factory_load_pct"
+    ]
+)
