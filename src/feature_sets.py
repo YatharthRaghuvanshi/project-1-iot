@@ -19,3 +19,4 @@ base_features = [
     "Torque [Nm]_rolling_var",
     "Tool wear [min]_rolling_var"
 ]
+target_column = "Machine failure9"
