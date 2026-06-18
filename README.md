@@ -688,3 +688,30 @@ Evaluation Metrics:
 
 Purpose:
 Establish baseline performance before introducing external context features.
+
+
+-----
+
+
+# Week 2 Day 3 Progress
+
+## Context-Aware Modeling
+
+Created:
+
+- extended_features
+- context validation scripts
+
+Compared:
+
+1. Internal IoT Features
+2. Internal IoT + Context Features
+
+External Context:
+
+- ambient_temp_C
+- factory_load_pct
+
+Objective:
+
+Measure the impact of contextual data on predictive maintenance performance.
