@@ -142,3 +142,32 @@ Macro F1: 0.87
 Precision: 0.89
 
 Recall: 0.84
+
+----
+
+# Random Forest Comparison
+
+## Baseline Features
+
+Precision: ___
+
+Recall: ___
+
+Macro F1: ___
+
+---
+
+## Extended Features
+
+Precision: ___
+
+Recall: ___
+
+Macro F1: ___
+
+---
+
+## Improvement Analysis
+
+Compare whether contextual features improved
+predictive maintenance performance.
