@@ -1,26 +1,42 @@
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import pandas as pd
 
 from sklearn.ensemble import RandomForestClassifier
-
 from sklearn.model_selection import train_test_split
-
 from sklearn.metrics import (
     precision_score,
     recall_score,
     f1_score
 )
 
-import sys
-import os
+from src.feature_sets import (
+    base_features,
+    extended_features
+)
 
-sys.path.append(os.path.abspath("."))
+df = pd.read_csv("C:/Users/ASUS/Downloads/project-1-iot/data/context_updated.csv")
 
-from src.feature_sets import extended_features
-
-df = pd.read_csv("data/cleaned_ai4i.csv")
-
+print("Dataset Columns:")
 print(df.columns.tolist())
-X = df[extended_features]
+
+missing = [
+    col
+    for col in extended_features
+    if col not in df.columns
+]
+
+print("\nMissing Features:")
+print(missing)
+
+if len(missing) > 0:
+    print("\nUsing base_features instead.")
+    X = df[base_features]
+else:
+    print("\nUsing extended_features.")
+    X = df[extended_features]
 
 y = df["Machine failure"]
 
@@ -41,16 +57,9 @@ model.fit(X_train, y_train)
 
 preds = model.predict(X_test)
 
-print(
-    "Precision:",
-    precision_score(y_test, preds)
-)
-
-print(
-    "Recall:",
-    recall_score(y_test, preds)
-)
-
+print("\nResults")
+print("Precision:", precision_score(y_test, preds))
+print("Recall:", recall_score(y_test, preds))
 print(
     "Macro F1:",
     f1_score(
