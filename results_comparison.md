@@ -125,3 +125,20 @@ Items to analyze:
 - [ ] Model Comparison Updated
 - [ ] Metrics Verified
 - [ ] Final Conclusions Added
+
+
+-----
+
+
+Macro F1: TBD
+Precision: TBD
+Recall: TBD
+
+
+## Without External Features
+
+Macro F1: 0.87
+
+Precision: 0.89
+
+Recall: 0.84
