@@ -715,3 +715,18 @@ External Context:
 Objective:
 
 Measure the impact of contextual data on predictive maintenance performance.
+
+-----
+
+## Week 2 Day 4
+
+### Feature Importance Analysis
+
+Generated:
+
+- feature_importance.png
+- top_features.csv
+
+Objective:
+
+Identify which IoT and contextual variables most strongly influence machine failures.
