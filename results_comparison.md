@@ -186,3 +186,27 @@ Top Important Features
 Observation:
 
 These variables contribute most to machine failure prediction.
+
+
+------
+
+
+# Week 2 Day 5
+
+## Ablation Study
+
+### Baseline Model
+
+Macro F1: 0.86
+
+### Context Model
+
+Macro F1: 0.84
+
+### Difference
+
+Macro F1 Improvement: 0.02
+
+### Conclusion
+
+Contextual features improved predictive maintenance performance.
