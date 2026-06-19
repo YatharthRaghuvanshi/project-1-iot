@@ -730,3 +730,25 @@ Generated:
 Objective:
 
 Identify which IoT and contextual variables most strongly influence machine failures.
+
+-----
+
+
+## Week 2 Day 5
+
+### Ablation Study
+
+Compared:
+
+- Base IoT Features
+- IoT + Context Features
+
+Generated:
+
+- ablation_study.py
+- ablation_plot.py
+- ablation_results.png
+
+Objective:
+
+Measure the contribution of contextual variables to predictive maintenance.
