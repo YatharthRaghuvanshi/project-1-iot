@@ -170,3 +170,19 @@ Macro F1: 0.8___
 
 Compare whether contextual features improved
 predictive maintenance performance.
+
+
+-----
+
+
+# Feature Importance Analysis
+
+Top Important Features
+
+1. Torque [0.2]]
+2. Tool wear [0.1]
+3. Rotational speed [0.2]
+
+Observation:
+
+These variables contribute most to machine failure prediction.
