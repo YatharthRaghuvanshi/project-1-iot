@@ -57,3 +57,7 @@ plt.savefig(
     "outputs/feature_importance.png"
 )
 plt.show()
+importance.to_csv(
+    "outputs/top_features.csv",
+    index=False
+)
