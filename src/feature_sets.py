@@ -6,7 +6,7 @@ base_features = [
     "Torque [Nm]",
     "Tool wear [min]"
 ]
-target_column = "Machine failure9"
+target_column = "Machine failure"
 
 
 extended_features = (
