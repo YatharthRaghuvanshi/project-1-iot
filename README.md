@@ -752,3 +752,57 @@ Generated:
 Objective:
 
 Measure the contribution of contextual variables to predictive maintenance.
+
+
+----
+
+
+## Week 3 Day 1 – Imbalanced Classification & LightGBM Modeling
+
+Sprint Goal
+
+Build the core LightGBM + SMOTE pipeline inside 5-fold cross-validation and prepare for SHAP explainability.
+
+# Member 1 – Data Engineer
+
+- Loaded the fused dataset ("context_updated.csv").
+- Configured 5-fold StratifiedKFold cross-validation.
+- Verified that class distributions remain consistent across all folds.
+
+# Member 2 – ML Engineer
+
+- Installed and configured LightGBM and imbalanced-learn.
+- Created a machine learning pipeline using:
+  - SMOTE (Synthetic Minority Oversampling Technique)
+  - LightGBM Classifier
+- Prepared the pipeline for cross-validation experiments.
+
+# Member 3 – Context & Integration
+
+- Loaded the feature matrix (X) and target variable (Machine failure).
+- Verified dataset dimensions.
+- Checked for missing values.
+- Examined class distribution before training.
+
+# Member 4 – Evaluation & Deployment Lead
+
+- Created "model_results.md" for experiment tracking.
+- Added result table structure for:
+  - Random Forest Baseline
+  - Context Random Forest
+  - LightGBM + SMOTE
+- Prepared documentation for future evaluation metrics.
+
+Files Added
+
+src/model.py
+
+notebooks/week3_data_setup.py
+
+notebooks/week3_modeling.py
+
+reports/model_results.md
+
+Status
+
+# Week 3 Day 1 setup completed successfully. Ready for Week 3 Day 2 cross-validation experiments.
