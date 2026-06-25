@@ -806,3 +806,70 @@ reports/model_results.md
 Status
 
 # Week 3 Day 1 setup completed successfully. Ready for Week 3 Day 2 cross-validation experiments.
+
+
+-----
+
+
+
+## Week 3 Day 2 – Cross-Validation and LightGBM Evaluation
+
+Sprint Goal
+
+Evaluate the LightGBM + SMOTE pipeline using 5-fold Stratified Cross-Validation and prepare the model for explainability analysis.
+
+# Member 1 – Data Engineer
+
+- Implemented 5-fold Stratified Cross-Validation.
+- Verified class distribution across all folds.
+- Calculated:
+  - Macro F1 Score
+  - Precision
+  - Recall
+  - Standard Deviation
+
+# Member 2 – ML Engineer
+
+- Validated SMOTE oversampling process.
+- Confirmed oversampling was applied only to training folds.
+- Verified balanced class distribution after SMOTE.
+
+# Member 3 – Context & Integration
+
+- Trained LightGBM model on the final fused dataset.
+- Removed non-numeric features before model training.
+- Fixed feature naming issues for LightGBM compatibility.
+- Prepared model for SHAP explainability.
+
+# Member 4 – Evaluation Lead
+
+- Updated experiment tracking report.
+- Recorded cross-validation metrics.
+- Compared:
+  - Random Forest Baseline
+  - Context-Aware Random Forest
+  - LightGBM + SMOTE
+
+Files Added
+
+notebooks/week3_cross_validation.py
+
+notebooks/smote_validation.py
+
+notebooks/lightgbm_shap_setup.py
+
+reports/model_results.md
+
+Outputs Generated
+
+- Cross-validation metrics
+- Mean Macro F1 Score
+- Precision Score
+- Recall Score
+- Standard Deviation
+
+Status
+
+✅ Week 3 Day 2 Completed
+
+Ready for Week 3 Day 3 (SHAP Explainability and Model Interpretation).
