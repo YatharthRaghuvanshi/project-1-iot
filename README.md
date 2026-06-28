@@ -937,3 +937,39 @@ Optimize the LightGBM model using GridSearchCV.
 ### Status
 
 Week 3 Day 4 Completed.
+
+
+------
+
+
+## Week 3 Day 5 – Final Integration
+
+### Sprint Goal
+Prepare the final predictive maintenance model for deployment and summarize project outcomes.
+
+### Member 1
+- Trained the final LightGBM model.
+- Saved the trained model using Joblib.
+
+### Member 2
+- Loaded the saved model.
+- Verified predictions on sample data.
+
+### Member 3
+- Compiled the final model evaluation report.
+- Summarized dataset, models, and SHAP analysis.
+
+### Member 4
+- Updated project documentation.
+- Finalized Week 3 progress.
+
+### Files Added
+
+- notebooks/save_model.py
+- notebooks/load_model.py
+- reports/final_results.md
+- models/lightgbm_model.pkl
+
+### Status
+
+Week 3 Completed
