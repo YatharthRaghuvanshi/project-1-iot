@@ -873,3 +873,33 @@ Status
 ✅ Week 3 Day 2 Completed
 
 Ready for Week 3 Day 3 (SHAP Explainability and Model Interpretation).
+
+
+-----
+
+
+## Week 3 Day 3 – SHAP Explainability
+
+### Completed Tasks
+
+- Installed SHAP
+- Generated SHAP values
+- Created SHAP summary visualization
+- Identified top contributing features
+- Documented model interpretability findings
+
+### Files Added
+
+notebooks/shap_setup.py
+
+notebooks/shap_analysis.py
+
+notebooks/shap_summary.py
+
+reports/shap_report.md
+
+outputs/shap_summary.png
+
+### Status
+
+Week 3 Day 3 Completed
