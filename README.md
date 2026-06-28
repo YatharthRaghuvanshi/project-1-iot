@@ -903,3 +903,37 @@ outputs/shap_summary.png
 ### Status
 
 Week 3 Day 3 Completed
+
+
+------
+
+
+## Week 3 Day 4 – Hyperparameter Tuning
+
+### Sprint Goal
+Optimize the LightGBM model using GridSearchCV.
+
+### Member 1
+- Prepared the dataset for hyperparameter tuning.
+
+### Member 2
+- Performed GridSearchCV.
+- Identified the best LightGBM parameters.
+
+### Member 3
+- Trained the optimized LightGBM model using the selected parameters.
+
+### Member 4
+- Documented tuning results.
+- Updated project reports.
+
+### Files Added
+
+- notebooks/hyperparameter_setup.py
+- notebooks/lightgbm_gridsearch.py
+- notebooks/final_lightgbm.py
+- reports/hyperparameter_report.md
+
+### Status
+
+Week 3 Day 4 Completed.
