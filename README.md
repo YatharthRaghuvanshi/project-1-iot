@@ -1005,7 +1005,7 @@ Evaluate the robustness of the LightGBM model and prepare the project dashboard.
 
 notebooks/week4_robustness.py
 
-notebooks/final_dashboard.ipynb
+notebooks/final_dashboard.md
 
 results/precision_recall_curve.png
 
