@@ -973,3 +973,49 @@ Prepare the final predictive maintenance model for deployment and summarize proj
 ### Status
 
 Week 3 Completed
+
+
+===================
+
+
+# Week 4 – Day 1
+
+## Sprint Goal
+Evaluate the robustness of the LightGBM model and prepare the project dashboard.
+
+### Member 1 – Data Engineer
+- Implemented Gaussian noise injection for robustness testing.
+- Verified that the dataset remains usable after adding noise.
+
+### Member 2 – ML Engineer
+- Generated prediction probabilities using the trained LightGBM model.
+- Created the Precision–Recall curve.
+- Calculated the Precision–Recall AUC.
+
+### Member 3 – Context Integration
+- Evaluated model performance at different probability thresholds.
+- Compared Precision, Recall, and F1-score across thresholds.
+- Identified the best threshold for prediction.
+
+### Member 4 – Evaluation & Deployment
+- Created the dashboard structure.
+- Added sections for Project Summary, Dataset Statistics, Model Performance, SHAP Insights, Robustness Analysis, and Conclusion.
+
+## Files Added
+
+notebooks/week4_robustness.py
+
+notebooks/final_dashboard.ipynb
+
+results/precision_recall_curve.png
+
+## Results
+
+- Precision–Recall Curve generated successfully.
+- PR-AUC calculated.
+- Threshold analysis completed.
+- Noise robustness testing implemented.
+
+## Status
+
+✅ Week 4 Day 1 Completed
