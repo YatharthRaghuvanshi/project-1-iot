@@ -1019,3 +1019,43 @@ results/precision_recall_curve.png
 ## Status
 
 ✅ Week 4 Day 1 Completed
+
+
+---------------
+
+## Week 4 – Day 2
+
+### Completed Tasks
+
+- Evaluated the LightGBM model under Gaussian noise conditions.
+- Tested three noise levels:
+  - Low Noise (σ = 0.05)
+  - Medium Noise (σ = 0.15)
+  - High Noise (σ = 0.30)
+- Measured Macro F1 score and F1 score degradation for each noise level.
+- Generated an overlaid Precision–Recall curve comparing clean and noisy test data.
+- Performed threshold analysis using thresholds from 0.10 to 0.90.
+- Plotted:
+  - Threshold vs F1 Score
+  - Threshold vs Precision
+  - Threshold vs Recall
+- Identified the optimal classification threshold.
+- Saved evaluation results and plots in the `outputs/` directory.
+
+### Noise Robustness Results
+
+| Noise Level | Macro F1 | F1 Drop |
+|-------------|---------:|---------:|
+| Clean | 0.8901 | 0.0000 |
+| 0.05 | 0.9001 | -0.0100 |
+| 0.15 | 0.8585 | 0.0316 |
+| 0.30 | 0.8720 | 0.0181 |
+
+### Files Added
+
+- `notebooks/week4_noise_test.py`
+- `notebooks/week4_pr_comparison.py`
+- `notebooks/threshold_analysis.py`
+- `results/noise_results.csv`
+- `results/pr_curves_comparison.png`
+- `results/threshold_analysis.png`
